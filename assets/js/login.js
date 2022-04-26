@@ -21,7 +21,7 @@ $(function () {
         }
     })
 
-    // 监听注册表单的提交事件
+    // 监听注册表单提交事件
     $("#form_reg").on("submit", function(e) {
         e.preventDefault();
         var data = $("#form_reg").serialize();
@@ -36,7 +36,7 @@ $(function () {
         })
     })
 
-    // 监听登录表单的提交事件
+    // 监听登录表单提交事件
     $("#form_login").on("submit", function(e) {
         e.preventDefault();
         var data = $("#form_login").serialize();
